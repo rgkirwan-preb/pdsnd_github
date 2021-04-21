@@ -13,5 +13,5 @@ Python program to return user data and statistics from bikerental data
 Python program: bikeshare.py; Bikerental data: washington.csv, new_york_city.csv, chicago.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+I'd like to thank my parents and endless cups of coffee
 
