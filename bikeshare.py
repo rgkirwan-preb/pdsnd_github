@@ -181,7 +181,6 @@ def user_stats(df, city):
         # Display counts of gender but first replace NaN with 'None'
         replace_nan_gender = df['Gender'].fillna('None')
         gender_count = replace_nan_gender.value_counts()
-        print()
         print(gender_count)
         # Display earliest, most recent, and most common year of birth
         print('\nEarliest birth year: ', df['Birth Year'].min())
