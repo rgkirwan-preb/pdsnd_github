@@ -1,6 +1,7 @@
 # Date: Created on April 22nd 2021
 # Project Title: Udacity Bikeshare project
 # Description: Python program to return user data and statistics from bikerental data
+# Files Used: Python program: bikeshare.py; Bikerental data: washington.csv, new_york_city.csv, chicago.csv
 
 import time
 import pandas as pd
