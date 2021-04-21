@@ -7,7 +7,7 @@ Created on April 22nd 2021
 Udacity Bikeshare project
 
 ### Description
-Describe what your project is about and what it does
+Python program to return user data and statistics from bikerental data
 
 ### Files used
 Include the files used

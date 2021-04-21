@@ -1,5 +1,6 @@
-# Created on April 22nd 2021
-# Udacity Bikeshare project
+# Date: Created on April 22nd 2021
+# Project Title: Udacity Bikeshare project
+# Description: Python program to return user data and statistics from bikerental data
 
 import time
 import pandas as pd
