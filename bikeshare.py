@@ -38,21 +38,18 @@ def get_filters():
     print('Hello! Let\'s explore some US bikeshare data!')
 
     # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
-    print()
     print('Enter the city you want data for: Chicago, New York or Washington?')
     city = input('Enter your selection: ').lower()
     while city not in cities:    
         city = input('{} invlaid, Please try again. Chicago, New York or Washington: '.format(city)).lower()
 
     # get user input for month (all, january, february, ... , june)
-    print()
     print('Enter the month you want data for: January, February, March, April, May, June or all?')
     month = input('Enter your selection: ').lower()
     while month not in months:    
         month = input('{} invlaid, Please try again. January, February, March, April, May, June or all?: '.format(month)).lower()
 
     # get user input for day of week (all, monday, tuesday, ... sunday)
-    print()
     print('Enter the day you want data for: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday or all?')
     day = input('Enter your selection: ').lower()
     while day not in days:    
@@ -60,7 +57,6 @@ def get_filters():
         
     # prompt user if they wish to have raw data displayed.
     data_count = 0
-    print()
     print('Do you want raw data output along with stats?')
     data_required = input('Enter y for 5 lines, or any key to continue: ').lower()
     while data_required == 'y':
@@ -191,7 +187,6 @@ def user_stats(df, city):
         # Display counts of gender but first replace NaN with 'None'
         replace_nan_gender = df['Gender'].fillna('None')
         gender_count = replace_nan_gender.value_counts()
-        print()
         print(gender_count)
         # Display earliest, most recent, and most common year of birth
         print('\nEarliest birth year: ', df['Birth Year'].min())
